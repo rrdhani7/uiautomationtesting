@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1">
+    <test name="Creepy">
+        <parameter name="tkpd_url" value="https://www.tokopedia.com/" />
+        <parameter name="mtkpd_url" value="https://m.tokopedia.com/" />
+        <classes>
+            <class name="com.tokopedia.transaction.cart.ATCVarianFirstGuideTest"/>
+
+        </classes>
+    </test>
+</suite>

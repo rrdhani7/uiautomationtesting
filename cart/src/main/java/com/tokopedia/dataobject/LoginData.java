@@ -25,21 +25,21 @@ public class LoginData {
     @DataProvider(name = "buyer")
     public static Object[][] buyer() {
         return new Object[][] {
-                {"rahmat.ramadhani@tokopedia.com", "b1sm1llahtokped"}
+                {"xxxxxx@tokopedia.com", "xxxxxx"}
         };
     }
 
     @DataProvider(name = "buyer1")
     public static Object[][] buyer1() {
         return new Object[][] {
-                {"rahmat.ramadhani+01@tokopedia.com", "b1sm1llahtokped"}
+                {"xxxxxx@tokopedia.com", "xxxxxxx"}
         };
     }
 
     @DataProvider(name = "buyer2")
     public static Object[][] buyer2() {
         return new Object[][] {
-                {"rahmat.ramadhani+02@tokopedia.com", "b1sm1llahtokped"}
+                {"xxxxxx@tokopedia.com", "xxxxx"}
         };
     }
 }
